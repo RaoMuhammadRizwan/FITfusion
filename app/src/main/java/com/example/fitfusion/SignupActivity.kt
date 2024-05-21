@@ -6,20 +6,20 @@ import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
-import com.example.fitfusion.databinding.ActivityLoginBinding
+import com.example.fitfusion.databinding.ActivitySignupBinding
 
-class LoginActivity : AppCompatActivity() {
-    private val binding:ActivityLoginBinding by lazy {
-        ActivityLoginBinding.inflate(layoutInflater)
-
+class SignupActivity : AppCompatActivity() {
+    private val binding : ActivitySignupBinding by lazy {
+        ActivitySignupBinding.inflate(layoutInflater)
     }
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
         setContentView(binding.root)
 
-        binding.dontHaveAccBtn.setOnClickListener{
-            val intent = Intent(this,SignupActivity::class.java)
+        binding.alreadyHaveAccBtn.setOnClickListener {
+            val intent = Intent(this,LoginActivity::class.java)
             startActivity(intent)
         }
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main)) { v, insets ->
