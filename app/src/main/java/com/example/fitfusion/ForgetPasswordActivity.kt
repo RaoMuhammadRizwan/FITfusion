@@ -6,17 +6,19 @@ import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
-import com.example.fitfusion.databinding.ActivityHomeBinding
+import com.example.fitfusion.databinding.ActivityForgetPasswordBinding
 
-class HomeActivity : AppCompatActivity() {
-    private val binding: ActivityHomeBinding by lazy{
-        ActivityHomeBinding.inflate(layoutInflater)
+class ForgetPasswordActivity : AppCompatActivity() {
+    private val binding : ActivityForgetPasswordBinding by lazy{
+        ActivityForgetPasswordBinding.inflate(layoutInflater)
     }
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
         setContentView(binding.root)
-        binding.btnNext.setOnClickListener{
+
+        binding.btnBack.setOnClickListener{
             val intent = Intent(this,LoginActivity::class.java)
             startActivity(intent)
         }

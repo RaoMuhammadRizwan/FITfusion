@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1005949931684",
+    "project_id": "fitfusion-fyp",
+    "storage_bucket": "fitfusion-fyp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1005949931684:android:30cf5e9635f1ff8d775631",
+        "android_client_info": {
+          "package_name": "com.example.fitfusion"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBRc96ff5dSprY1n7yAMYrNmXeYilV9fKk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

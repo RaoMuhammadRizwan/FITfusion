@@ -61,5 +61,15 @@
     <string name="create_account">Create Account</string>
     <string name="already_have_an_account">Already Have An Account !</string>
     <string name="sign_up_with">Sign Up with</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="retype_password">Retype Password</string>
+    <string name="provide_your_accounts_email_for_which_you_want_n_to_reset_password">Provide your accounts email for which you want \n to reset password</string>
+    <string name="forgot_password">FORGOT PASSWORD</string>
+    <string name="back">BACK</string>
+    <string name="provide_your_email_to_reset_password">Provide your Email to Reset Password</string>
+    <string name="reset_password">RESET PASSWORD</string>
 
 </resources>

@@ -1,7 +1,10 @@
 plugins {
     alias(libs.plugins.androidApplication)
     alias(libs.plugins.jetbrainsKotlinAndroid)
+    id("com.google.gms.google-services")
+
 }
+
 
 android {
     namespace = "com.example.fitfusion"
@@ -35,7 +38,7 @@ android {
     kotlinOptions {
         jvmTarget = "1.8"
     }
-    buildFeatures {
+    buildFeatures{
         viewBinding = true
     }
 }
@@ -49,7 +52,16 @@ dependencies {
     implementation(libs.androidx.constraintlayout)
     implementation(libs.androidx.navigation.fragment.ktx)
     implementation(libs.androidx.navigation.ui.ktx)
+    //FireBase Authentication
+    implementation(platform("com.google.firebase:firebase-bom:33.0.0"))
+    implementation(libs.firebase.auth)
+
+    implementation(libs.androidx.lifecycle.livedata.ktx)
+    implementation(libs.androidx.lifecycle.viewmodel.ktx)
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
+
+
+    
 }
