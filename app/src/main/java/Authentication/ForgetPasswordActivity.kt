@@ -1,11 +1,9 @@
-package com.example.fitfusion
+package Authentication
 
 import android.content.Intent
 import android.os.Bundle
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
-import androidx.core.view.ViewCompat
-import androidx.core.view.WindowInsetsCompat
 import com.example.fitfusion.databinding.ActivityForgetPasswordBinding
 
 class ForgetPasswordActivity : AppCompatActivity() {
@@ -19,7 +17,7 @@ class ForgetPasswordActivity : AppCompatActivity() {
         setContentView(binding.root)
 
         binding.btnBack.setOnClickListener{
-            val intent = Intent(this,LoginActivity::class.java)
+            val intent = Intent(this, LoginActivity::class.java)
             startActivity(intent)
         }
 

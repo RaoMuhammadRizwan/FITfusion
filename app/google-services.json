@@ -12,7 +12,20 @@
           "package_name": "com.example.fitfusion"
         }
       },
-      "oauth_client": [],
+      "oauth_client": [
+        {
+          "client_id": "1005949931684-o6n2not861qp1fb29s5t6ft3pjf0g3b7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.fitfusion",
+            "certificate_hash": "7cba6a06e7d59a6046d8bfd739a179afe3f88f54"
+          }
+        },
+        {
+          "client_id": "1005949931684-83ql6t110u2kr13or8cr30b995dci3b9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
       "api_key": [
         {
           "current_key": "AIzaSyBRc96ff5dSprY1n7yAMYrNmXeYilV9fKk"
@@ -20,7 +33,12 @@
       ],
       "services": {
         "appinvite_service": {
-          "other_platform_oauth_client": []
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1005949931684-83ql6t110u2kr13or8cr30b995dci3b9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
         }
       }
     }

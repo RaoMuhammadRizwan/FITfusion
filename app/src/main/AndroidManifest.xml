@@ -13,14 +13,13 @@
         android:theme="@style/Theme.FITFUSION"
         tools:targetApi="31">
         <activity
-            android:name=".ForgetPasswordActivity"
+            android:name=".RoughAct"
             android:exported="false" />
         <activity
-            android:name=".MainActivity"
-            android:exported="false"
-            android:label="@string/title_activity_main" />
+            android:name="Authentication.ForgetPasswordActivity"
+            android:exported="false" />
         <activity
-            android:name=".SplashScreen"
+            android:name=".MainScreenActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -29,16 +28,16 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".genderActivity"
+            android:name="Authentication.SplashScreen"
+            android:exported="false"></activity>
+        <activity
+            android:name="Authentication.SignupActivity"
             android:exported="false" />
         <activity
-            android:name=".SignupActivity"
+            android:name="Authentication.LoginActivity"
             android:exported="false" />
         <activity
-            android:name=".LoginActivity"
-            android:exported="false" />
-        <activity
-            android:name=".HomeActivity"
+            android:name="Authentication.HomeActivity"
             android:exported="false" />
     </application>
 

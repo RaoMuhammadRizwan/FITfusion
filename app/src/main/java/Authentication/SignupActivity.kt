@@ -1,12 +1,10 @@
-package com.example.fitfusion
+package Authentication
 
 import android.content.Intent
 import android.os.Bundle
 import android.widget.Toast
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
-import androidx.core.view.ViewCompat
-import androidx.core.view.WindowInsetsCompat
 import com.example.fitfusion.databinding.ActivitySignupBinding
 import com.google.firebase.auth.FirebaseAuth
 
@@ -24,6 +22,7 @@ class SignupActivity : AppCompatActivity() {
         setContentView(binding.root)
         //Intializing FireBase Auth
          auth = FirebaseAuth.getInstance()
+
 
         binding.alreadyHaveAccBtn.setOnClickListener {
             val intent = Intent(this, LoginActivity::class.java)
@@ -51,7 +50,7 @@ class SignupActivity : AppCompatActivity() {
                         if(task.isSuccessful){
                             Toast.makeText(this, "Registration Successful !", Toast.LENGTH_SHORT).show()
                             //where will the user go if successfull
-                            val intent = Intent(this,LoginActivity::class.java)
+                            val intent = Intent(this, LoginActivity::class.java)
                             startActivity(intent)
                             finish()
                         }
@@ -63,6 +62,8 @@ class SignupActivity : AppCompatActivity() {
 
 
         }
+
+
 
     }
 }

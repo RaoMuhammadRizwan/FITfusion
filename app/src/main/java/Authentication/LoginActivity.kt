@@ -1,12 +1,11 @@
-package com.example.fitfusion
+package Authentication
 
 import android.content.Intent
 import android.os.Bundle
 import android.widget.Toast
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
-import androidx.core.view.ViewCompat
-import androidx.core.view.WindowInsetsCompat
+import com.example.fitfusion.MainScreenActivity
 import com.example.fitfusion.databinding.ActivityLoginBinding
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.FirebaseUser
@@ -24,7 +23,7 @@ class LoginActivity : AppCompatActivity() {
         //check if user already logedin
         val currentUser: FirebaseUser? = auth.currentUser
         if (currentUser != null) {
-            startActivity(Intent(this, MainActivity::class.java))
+            startActivity(Intent(this, MainScreenActivity::class.java))
             finish()
         }
 
@@ -52,7 +51,7 @@ class LoginActivity : AppCompatActivity() {
                         if (task.isSuccessful) {
                             Toast.makeText(this, "Login Successful", Toast.LENGTH_SHORT).show()
                             //where user will be sent which logined
-                            val intent = Intent(this, MainActivity::class.java)
+                            val intent = Intent(this, MainScreenActivity::class.java)
                             startActivity(intent)
                             finish()
                         } else {
