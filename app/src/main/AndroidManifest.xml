@@ -13,13 +13,16 @@
         android:theme="@style/Theme.FITFUSION"
         tools:targetApi="31">
         <activity
-            android:name=".RoughAct"
+            android:name=".BMIresultActivity"
             android:exported="false" />
         <activity
             android:name="Authentication.ForgetPasswordActivity"
             android:exported="false" />
         <activity
             android:name=".MainScreenActivity"
+            android:exported="false" />
+        <activity
+            android:name="Authentication.SplashScreen"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -28,9 +31,6 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="Authentication.SplashScreen"
-            android:exported="false"></activity>
-        <activity
             android:name="Authentication.SignupActivity"
             android:exported="false" />
         <activity
@@ -38,7 +38,7 @@
             android:exported="false" />
         <activity
             android:name="Authentication.HomeActivity"
-            android:exported="false" />
+            android:exported="true"></activity>
     </application>
 
 </manifest>

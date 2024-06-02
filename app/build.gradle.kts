@@ -73,6 +73,15 @@ dependencies {
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
 
+    dependencies {
+        val fragment_version = "1.7.1"
+
+        // Java language implementation
+        implementation("androidx.fragment:fragment:$fragment_version")
+        // Kotlin
+        implementation("androidx.fragment:fragment-ktx:$fragment_version")
+    }
+
 
 
     

@@ -7,5 +7,13 @@
     <color name="green">#4CAF50</color>
     <color name="textcolor">#808080</color>
     <color name="logintextcolour">#09799B</color>
+    <color name="purple_500">#9C27B0</color>
+    <color name="card_background">#8BC34A</color>
+
+    <!-- Selected and unselected cardview of BMI Fragment -->
+    <color name="selected_card">#F0FFEB3B</color>
+    <color name="default_card">#FFFFFF</color>
+
+
 
 </resources>

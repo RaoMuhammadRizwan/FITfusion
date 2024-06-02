@@ -13,7 +13,7 @@ class MainScreenActivity : AppCompatActivity() {
 
         setContentView(R.layout.activity_main_screen)
         //Code for moving between fragments
-        val navController: NavController = findNavController(R.id.fragmentContainerView2)
+        val navController: NavController = findNavController(R.id.fragmentContainerView)
         val bottomNav: BottomNavigationView =
             findViewById<BottomNavigationView>(R.id.bottomNavigationView)
         bottomNav.setupWithNavController(navController)
