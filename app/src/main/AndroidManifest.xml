@@ -12,8 +12,20 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.FITFUSION"
         tools:targetApi="31">
+
+        <meta-data
+            android:name="com.google.android.gms.client_id"
+            android:value="@string/default_web_client_id" />
+
+
         <activity
-            android:name=".BMIresultActivity"
+            android:name=".EditProfileActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ProfileActivity"
+            android:exported="false" />
+        <activity
+            android:name="Exercise.ExerciseListActivity"
             android:exported="false" />
         <activity
             android:name="Authentication.ForgetPasswordActivity"
@@ -30,6 +42,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
         <activity
             android:name="Authentication.SignupActivity"
             android:exported="false" />
@@ -38,7 +51,7 @@
             android:exported="false" />
         <activity
             android:name="Authentication.HomeActivity"
-            android:exported="true"></activity>
+            android:exported="false" />
     </application>
 
 </manifest>

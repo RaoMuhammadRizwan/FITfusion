@@ -21,7 +21,7 @@
     </com.google.android.material.bottomnavigation.BottomNavigationView>
 
     <TextView
-        android:id="@+id/textView11"
+        android:id="@+id/tvUsername"
         android:layout_width="250dp"
         android:layout_height="40dp"
         android:layout_marginStart="5dp"
@@ -31,7 +31,8 @@
         android:fontFamily="sans-serif-condensed"
         android:gravity="center"
         android:padding="8dp"
-        android:text="HI! UserName"
+        android:textAlignment="center"
+        android:text="Welcome to FITfusion"
         android:textColor="@color/textcolor"
         android:textSize="18sp"
         android:textStyle="bold"
@@ -39,7 +40,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
-        android:id="@+id/imageView6"
+        android:id="@+id/ivProfile"
         android:layout_width="40dp"
         android:layout_height="40dp"
         android:layout_marginEnd="10dp"
@@ -47,9 +48,9 @@
         android:elevation="15dp"
         android:padding="8dp"
         android:src="@drawable/person"
-        app:layout_constraintBottom_toBottomOf="@+id/textView11"
+        app:layout_constraintBottom_toBottomOf="@+id/tvUsername"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/textView11" />
+        app:layout_constraintTop_toTopOf="@+id/tvUsername" />
 
     <fragment
         android:id="@+id/fragmentContainerView"
@@ -63,7 +64,7 @@
         app:layout_constraintBottom_toTopOf="@+id/bottomNavigationView"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/textView11"
+        app:layout_constraintTop_toBottomOf="@+id/tvUsername"
         app:navGraph="@navigation/navigation" />
 
 

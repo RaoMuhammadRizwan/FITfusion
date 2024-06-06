@@ -46,5 +46,9 @@
     <string name="Age">Age :</string>
     <string name="calculate">CALCULATE</string>
     <string name="bmi_result">BMI RESULT</string>
+    <string name="expert_level" />
+    <string name="beginner_level" />
+    <string name="intermediate_level" />
+    <string name="advanced_level" />
 
 </resources>
