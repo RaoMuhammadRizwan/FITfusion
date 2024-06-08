@@ -18,7 +18,11 @@ dependencyResolutionManagement {
     repositories {
         google()
         mavenCentral()
-            }
+    }
+    repositories {
+            maven("https://jitpack.io")
+        }
+
 }
 
 rootProject.name = "FITFUSION"

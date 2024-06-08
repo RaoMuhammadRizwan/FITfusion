@@ -24,18 +24,20 @@
         android:id="@+id/tvUsername"
         android:layout_width="250dp"
         android:layout_height="40dp"
-        android:layout_marginStart="5dp"
+        android:layout_marginStart="80dp"
         android:layout_marginTop="5dp"
+        android:layout_marginEnd="32dp"
         android:background="@drawable/whitebtn"
         android:elevation="15dp"
         android:fontFamily="sans-serif-condensed"
         android:gravity="center"
         android:padding="8dp"
-        android:textAlignment="center"
         android:text="Welcome to FITfusion"
+        android:textAlignment="center"
         android:textColor="@color/textcolor"
         android:textSize="18sp"
         android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/ivProfile"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -52,6 +54,18 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="@+id/tvUsername" />
 
+    <ImageView
+        android:id="@+id/ivLogout"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="10dp"
+        android:background="@drawable/whitebtn"
+        android:elevation="15dp"
+        android:padding="8dp"
+        android:src="@drawable/logout"
+        app:layout_constraintBottom_toBottomOf="@+id/tvUsername"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/tvUsername" />
     <fragment
         android:id="@+id/fragmentContainerView"
         android:name="androidx.navigation.fragment.NavHostFragment"

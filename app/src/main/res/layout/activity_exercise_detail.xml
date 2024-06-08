@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context="Exercise.ExerciseDetailActivity">
+
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/ivExerciseDetailImage"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:scaleType="fitCenter"
+        android:background="@drawable/imageviewbg"
+        android:elevation="10dp"
+        android:layout_marginTop="10dp"
+        android:contentDescription="@string/exercise_image" />
+
+    <TextView
+        android:id="@+id/tvExerciseDetailName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:gravity="center"
+        android:padding="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/textview_background"
+        android:textStyle="bold"
+        android:paddingTop="16dp"
+        android:textAlignment="center"
+        android:paddingBottom="8dp" />
+
+    <TextView
+        android:id="@+id/tvExerciseDetailDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:padding="10dp"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/textview_background"
+        android:textAlignment="gravity" />
+
+    <TextView
+        android:id="@+id/tvExerciseDetailInstructions"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="normal"
+        android:layout_marginTop="10dp"
+        android:padding="10dp"
+        android:background="@drawable/textview_background"
+        android:textSize="16sp" />
+</LinearLayout>

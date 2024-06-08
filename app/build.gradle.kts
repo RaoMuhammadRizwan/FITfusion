@@ -6,6 +6,8 @@ plugins {
 }
 
 
+
+
 android {
     namespace = "com.example.fitfusion"
     compileSdk = 34
@@ -70,9 +72,15 @@ dependencies {
     implementation(libs.androidx.lifecycle.viewmodel.ktx)
     implementation(libs.firebase.database)
     implementation(libs.firebase.firestore.ktx)
+    implementation(libs.androidx.webkit)
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
+    //dependency to add gif file
+    implementation ("pl.droidsonroids.gif:android-gif-drawable:1.2.28")
+    //dependency to add imageslideshow
+    implementation ("com.github.denzcoskun:ImageSlideshow:0.1.2")
+
 
     dependencies {
         val fragment_version = "1.7.1"

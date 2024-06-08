@@ -50,5 +50,9 @@
     <string name="beginner_level" />
     <string name="intermediate_level" />
     <string name="advanced_level" />
+    <string name="exercise_image">exercise_image</string>
+
+
+
 
 </resources>
