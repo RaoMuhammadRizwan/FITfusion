@@ -73,6 +73,8 @@ dependencies {
     implementation(libs.firebase.database)
     implementation(libs.firebase.firestore.ktx)
     implementation(libs.androidx.webkit)
+    implementation(libs.androidx.media3.common)
+    implementation(libs.firebase.vertexai)
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
@@ -80,6 +82,9 @@ dependencies {
     implementation ("pl.droidsonroids.gif:android-gif-drawable:1.2.28")
     //dependency to add imageslideshow
     implementation ("com.github.denzcoskun:ImageSlideshow:0.1.2")
+//google gemenie API dependency
+    implementation("com.google.ai.client.generativeai:generativeai:0.8.0")
+
 
 
     dependencies {
@@ -93,5 +98,5 @@ dependencies {
 
 
 
-    
+
 }

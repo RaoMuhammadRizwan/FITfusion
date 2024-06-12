@@ -10,6 +10,7 @@ import android.widget.Toast
 import com.denzcoskun.imageslider.constants.ScaleTypes
 import com.denzcoskun.imageslider.interfaces.ItemClickListener
 import com.denzcoskun.imageslider.models.SlideModel
+import com.example.fitfusion.AskAIActivity
 import com.example.fitfusion.AvatarCreation
 import com.example.fitfusion.R
 import com.example.fitfusion.databinding.FragmentHomeBinding
@@ -63,6 +64,15 @@ class HomeFragment : Fragment() {
             startActivity(intent)
 
         }
+        binding.cvAskAI.setOnClickListener{
+            Toast.makeText(requireContext(), "Ask AI Clicked", Toast.LENGTH_SHORT).show()
+            val intent = Intent(requireContext(),AskAIActivity::class.java)
+            startActivity(intent)
+            
+
+        }
+
+
 
 
     }
