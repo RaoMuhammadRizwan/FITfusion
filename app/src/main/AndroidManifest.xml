@@ -21,6 +21,15 @@
         android:theme="@style/Theme.FITFUSION"
         tools:targetApi="31">
         <activity
+            android:name="Exercise.ExerciseListActivity"
+            android:exported="false" />
+        <activity
+            android:name="Exercise.ExerciseDetailActivity"
+            android:exported="false" />
+        <activity
+            android:name=".BMIResultActivity"
+            android:exported="false" />
+        <activity
             android:name=".AskAIActivity"
             android:exported="false" />
 
@@ -32,16 +41,10 @@
             android:name=".AvatarCreation"
             android:exported="false" />
         <activity
-            android:name="Exercise.ExerciseDetailActivity"
-            android:exported="false" />
-        <activity
             android:name=".EditProfileActivity"
             android:exported="false" />
         <activity
             android:name=".ProfileActivity"
-            android:exported="false" />
-        <activity
-            android:name="Exercise.ExerciseListActivity"
             android:exported="false" />
         <activity
             android:name="Authentication.ForgetPasswordActivity"

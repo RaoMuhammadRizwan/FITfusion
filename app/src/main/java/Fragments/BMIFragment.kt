@@ -1,5 +1,6 @@
 package Fragments
 
+import android.content.Intent
 import android.os.Bundle
 import android.text.TextUtils
 import android.view.LayoutInflater
@@ -8,6 +9,7 @@ import android.view.ViewGroup
 import android.widget.Toast
 import androidx.core.content.ContextCompat
 import androidx.fragment.app.Fragment
+import com.example.fitfusion.BMIResultActivity
 import com.example.fitfusion.R
 import com.example.fitfusion.databinding.FragmentBMIBinding
 
@@ -86,10 +88,45 @@ class BMIFragment : Fragment() {
 
     private fun calculateBMI() {
         val weight = binding.etWeight.text.toString().toFloat()
-        val height = binding.etHeight.text.toString().toFloat() / 100 // Convert height to meters
-        val bmi = weight / (height * height)
+        val heightCm = binding.etHeight.text.toString().toFloat()
+        val heightM = heightCm / 100 // Convert height to meters
+        val bmi = weight / (heightM * heightM)
 
-        Toast.makeText(requireContext(), "Your BMI is %.2f".format(bmi), Toast.LENGTH_LONG).show()
+        val category: String
+        val imageResId: Int
+        val colorResId: Int
+
+        when {
+            bmi < 18.5 -> {
+                category = "Underweight"
+                imageResId = R.drawable.underweight_image
+                colorResId = R.color.underweight_color
+            }
+            bmi < 25 -> {
+                category = "Normal weight"
+                imageResId = R.drawable.normal_weight_image
+                colorResId = R.color.normal_weight_color
+            }
+            bmi < 30 -> {
+                category = "Overweight"
+                imageResId = R.drawable.overweight_image
+                colorResId = R.color.overweight_color
+            }
+            else -> {
+                category = "Obese"
+                imageResId = R.drawable.obese_image
+                colorResId = R.color.obese_color
+            }
+        }
+        Toast.makeText(requireContext(), "Your BMI is: %.2f".format(bmi), Toast.LENGTH_LONG).show()
+
+        val intent = Intent(requireContext(), BMIResultActivity::class.java).apply {
+            putExtra("BMI_VALUE", bmi)
+            putExtra("BMI_CATEGORY", category)
+            putExtra("BMI_IMAGE_RES_ID", imageResId)
+            putExtra("BMI_COLOR_RES_ID", colorResId)
+        }
+        startActivity(intent)
     }
 
     override fun onDestroyView() {

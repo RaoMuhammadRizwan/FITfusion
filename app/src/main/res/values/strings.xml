@@ -52,5 +52,13 @@
     <string name="advanced_level" />
     <string name="exercise_image">exercise_image</string>
 
+    <color name="underweight_color">#ADD8E6</color>
+    <color name="normal_weight_color">#90EE90</color>
+    <color name="overweight_color">#FFD700</color>
+    <color name="obese_color">#F4602A</color>
+
+    <string name="bmi_value">BMI: %.2f</string>
+    <string name="exercise_gif" />
+
 
 </resources>

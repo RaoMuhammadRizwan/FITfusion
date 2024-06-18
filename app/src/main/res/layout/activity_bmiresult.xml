@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/bmiColor"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BMIResultActivity">
+
+    <ImageView
+        android:id="@+id/bmiImage"
+        android:layout_width="500dp"
+        android:layout_height="500dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:elevation="20dp"
+        android:cropToPadding="true"
+        android:contentDescription="BMI Image" />
+
+    <TextView
+        android:id="@+id/bmiCategory"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:padding="10dp"
+        android:elevation="10dp"
+        android:layout_centerVertical="true"
+        android:layout_marginHorizontal="20dp"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:layout_below="@id/bmiImage"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/textview_background"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/bmiValue"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@id/bmiCategory"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:padding="10dp"
+        android:elevation="10dp"
+        android:layout_marginHorizontal="20dp"
+        android:textAlignment="center"
+        android:background="@drawable/textview_background"
+        android:textSize="18sp"
+        android:layout_centerVertical="true"
+        android:textColor="@color/black"
+        android:textStyle="bold"/>
+
+
+</RelativeLayout>

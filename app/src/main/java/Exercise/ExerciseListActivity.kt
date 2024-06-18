@@ -94,19 +94,19 @@ class ExerciseListActivity : AppCompatActivity() {
                     "Primary muscles: Inner thighs, glutes, quads, hamstrings",
                     "Hard",
                     R.drawable.alternatingsidelungetouchexercise,
-                   "1. Stand tall with your feet hip-width apart.\n" +
-                           "2. Step to the side with your right leg and touch the right foot with your left hand.\n" +
-                           "3. Return to the starting position and repeat the movement with the left leg."
+                    "1. Stand tall with your feet hip-width apart.\n" +
+                            "2. Step to the side with your right leg and touch the right foot with your left hand.\n" +
+                            "3. Return to the starting position and repeat the movement with the left leg."
                 ),
                 Exercise(
                     "Alternating Superman",
                     "Primary muscles: Middle back, lower back",
                     "Hard",
                     R.drawable.alternatingsupermanexercise,
-                   "1. Lie face down on a mat, with your arms and legs fully extended.\n" +
-                           "2. Lift one arm and the opposite leg off the floor, by arching your back.\n" +
-                           "3. Hold for a count of 2, return to the starting position and repeat with the opposite arm and leg.\n" +
-                           "4. Alternate until the set is complete."
+                    "1. Lie face down on a mat, with your arms and legs fully extended.\n" +
+                            "2. Lift one arm and the opposite leg off the floor, by arching your back.\n" +
+                            "3. Hold for a count of 2, return to the starting position and repeat with the opposite arm and leg.\n" +
+                            "4. Alternate until the set is complete."
                 ),
                 Exercise(
                     "Ankle Circles",
@@ -123,10 +123,10 @@ class ExerciseListActivity : AppCompatActivity() {
                     "Primary muscles: Calves",
                     "Medium",
                     R.drawable.anklehopsexercise,
-                   "1. Stand upright with your feet hip-width apart and your arms by your sides.\n" +
-                           "2. Shift your weight to the right leg and point your left toes down into the ground.\n" +
-                           "3. Start rotating your left foot, making small circles with your ankles.\n" +
-                           "4. Repeat the exercise with your right foot."
+                    "1. Stand upright with your feet hip-width apart and your arms by your sides.\n" +
+                            "2. Shift your weight to the right leg and point your left toes down into the ground.\n" +
+                            "3. Start rotating your left foot, making small circles with your ankles.\n" +
+                            "4. Repeat the exercise with your right foot."
                 )
 
             )
@@ -161,27 +161,27 @@ class ExerciseListActivity : AppCompatActivity() {
                     "1. Stand straight with your feet slightly wider than shoulder-width apart and raise your arms to the sides.\n" +
                             "2. Bend and rotate your torso to the right, touching your right feet with your left hand.\n" +
                             "3. Return to the starting position and repeat on the other side."
-            ),
-            Exercise(
-                "Bicycle Crunches",
-                "Primary muscles: Abs, obliques",
-                "Expert",
-                R.drawable.bicyclecrunchesexercise,
-                "1. Lie on your back, lift your shoulders off the mat and raise both legs.\n" +
-                        "2. Bring one knee and the opposing elbow close to each other by crunching to one side, and fully extend the other leg.\n" +
-                        "3. Return to the starting position and then crunch to the opposite side.\n" +
-                        "4. Repeat until the set is complete."
-            ),
-            Exercise(
-                "Bird Dogs",
-                "Primary muscles: Abs, middle and lower back",
-                "Expert",
-                R.drawable.birdsdogsexercise,
-                "1. Start on your hands and knees with the hands under the shoulders and the knees under the hips.\n" +
-                        "2. Extend one leg and the opposite arm at the same time.\n" +
-                        "3. Pause for 3 to 5 seconds, return to the starting position, and switch sides.\n" +
-                        "4. Continue alternating sides until set is complete."
-            ),
+                ),
+                Exercise(
+                    "Bicycle Crunches",
+                    "Primary muscles: Abs, obliques",
+                    "Expert",
+                    R.drawable.bicyclecrunchesexercise,
+                    "1. Lie on your back, lift your shoulders off the mat and raise both legs.\n" +
+                            "2. Bring one knee and the opposing elbow close to each other by crunching to one side, and fully extend the other leg.\n" +
+                            "3. Return to the starting position and then crunch to the opposite side.\n" +
+                            "4. Repeat until the set is complete."
+                ),
+                Exercise(
+                    "Bird Dogs",
+                    "Primary muscles: Abs, middle and lower back",
+                    "Expert",
+                    R.drawable.birdsdogsexercise,
+                    "1. Start on your hands and knees with the hands under the shoulders and the knees under the hips.\n" +
+                            "2. Extend one leg and the opposite arm at the same time.\n" +
+                            "3. Pause for 3 to 5 seconds, return to the starting position, and switch sides.\n" +
+                            "4. Continue alternating sides until set is complete."
+                ),
                 Exercise(
                     "Boat Twist",
                     "Primary muscles: Abs, obliques",
@@ -233,7 +233,7 @@ class ExerciseListActivity : AppCompatActivity() {
                             "3. Lower the hips to return to the starting position and repeat."
                 ),
 
-            )
+                )
 //
             "Advanced Level" -> listOf(
                 Exercise(
@@ -369,15 +369,15 @@ class ExerciseListActivity : AppCompatActivity() {
                             "5. Repeat."
                 ),
                 Exercise(
-                        "Dumbbell Triceps Kickback",
-                "Primary muscles: Triceps",
-                "Expert",
-                R.drawable.dumbbelltricepskickbackexercise,
-                "1. Grab a set of dumbbells, bring your torso forward and bend your knees slightly.\n" +
-                        "2. Bring your elbows up, so that your upper arms are parallel to the floor, and kick back until your arms are fully extended.\n" +
-                        "3. Slowly lower the weights to the starting position.\n" +
-                        "4. Repeat."
-            ),
+                    "Dumbbell Triceps Kickback",
+                    "Primary muscles: Triceps",
+                    "Expert",
+                    R.drawable.dumbbelltricepskickbackexercise,
+                    "1. Grab a set of dumbbells, bring your torso forward and bend your knees slightly.\n" +
+                            "2. Bring your elbows up, so that your upper arms are parallel to the floor, and kick back until your arms are fully extended.\n" +
+                            "3. Slowly lower the weights to the starting position.\n" +
+                            "4. Repeat."
+                ),
                 Exercise(
                     "Triceps Stretch",
                     "Primary muscles: Triceps",
@@ -434,7 +434,7 @@ class ExerciseListActivity : AppCompatActivity() {
                             "2. Twist your torso to the right, bring the left dumbbell between both feet and pull the right dumbbell close to your right shoulder.\n" +
                             "3. Switch sides and repeat."
 
-           )
+                )
             )
 
             else -> emptyList()

@@ -1,10 +1,11 @@
+import org.jetbrains.kotlin.storage.CacheResetOnProcessCanceled.enabled
+
 plugins {
     alias(libs.plugins.androidApplication)
     alias(libs.plugins.jetbrainsKotlinAndroid)
     id("com.google.gms.google-services")
 
 }
-
 
 
 
@@ -24,6 +25,8 @@ android {
     buildFeatures{
         viewBinding = true
     }
+
+
     buildTypes {
         release {
             isMinifyEnabled = false
@@ -42,6 +45,10 @@ android {
     }
     buildFeatures{
         viewBinding = true
+    }
+    buildFeatures {
+        //noinspection DataBindingWithoutKapt
+        dataBinding = true
     }
 }
 
@@ -84,6 +91,14 @@ dependencies {
     implementation ("com.github.denzcoskun:ImageSlideshow:0.1.2")
 //google gemenie API dependency
     implementation("com.google.ai.client.generativeai:generativeai:0.8.0")
+
+    //adding retrofit dependency
+    implementation ("com.squareup.retrofit2:retrofit:2.11.0")
+    //adding Gson
+    implementation ("com.squareup.retrofit2:converter-gson:2.11.0")
+
+    //glide
+    implementation ("com.github.bumptech.glide:glide:4.16.0")
 
 
 
