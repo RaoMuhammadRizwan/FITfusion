@@ -12,6 +12,7 @@ import com.denzcoskun.imageslider.interfaces.ItemClickListener
 import com.denzcoskun.imageslider.models.SlideModel
 import com.example.fitfusion.AskAIActivity
 import com.example.fitfusion.AvatarCreation
+import com.example.fitfusion.MeditationActivity
 import com.example.fitfusion.R
 import com.example.fitfusion.databinding.FragmentHomeBinding
 
@@ -70,6 +71,11 @@ class HomeFragment : Fragment() {
             startActivity(intent)
             
 
+        }
+        binding.cvMeditation.setOnClickListener{
+            Toast.makeText(requireContext(), "Meditation Clicked", Toast.LENGTH_SHORT).show()
+            val intent = Intent(requireContext(),MeditationActivity::class.java)
+            startActivity(intent)
         }
 
 

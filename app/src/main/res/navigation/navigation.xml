@@ -16,10 +16,10 @@
         android:label="fragment_b_m_i"
         tools:layout="@layout/fragment_b_m_i" />
     <fragment
-        android:id="@+id/mealFragment"
-        android:name="Fragments.MealFragment"
-        android:label="fragment_meal"
-        tools:layout="@layout/fragment_meal" />
+        android:id="@+id/DailyCaloriesFragment"
+        android:name="Fragments.DailyCaloriesFragment"
+        android:label="fragment_daily_calories"
+        tools:layout="@layout/fragment_daily_calories" />
     <fragment
         android:id="@+id/workoutFragment"
         android:name="Fragments.WorkoutFragment"

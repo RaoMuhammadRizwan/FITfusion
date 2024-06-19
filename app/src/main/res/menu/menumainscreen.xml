@@ -11,7 +11,7 @@
     <item android:title="Workout"
         android:id="@+id/workoutFragment"
         android:icon="@drawable/workout_icon" />
-    <item android:title="Meal"
-        android:id="@+id/mealFragment"
+    <item android:title="Daily Calories "
+        android:id="@+id/DailyCaloriesFragment"
         android:icon="@drawable/meal_icon" />
 </menu>

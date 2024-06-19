@@ -21,6 +21,12 @@
         android:theme="@style/Theme.FITFUSION"
         tools:targetApi="31">
         <activity
+            android:name=".MeditationActivity"
+            android:exported="false" />
+        <activity
+            android:name="Food.FoodDetailsActivity"
+            android:exported="false" />
+        <activity
             android:name="Exercise.ExerciseListActivity"
             android:exported="false" />
         <activity

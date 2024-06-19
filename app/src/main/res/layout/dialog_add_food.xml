@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/etFoodName"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/edittextbackground"
+        android:hint="     Food Name" />
+
+    <EditText
+        android:id="@+id/etFoodCalories"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:hint="     Calories"
+        android:layout_gravity="center"
+        android:background="@drawable/edittextbackground"
+        android:textStyle="bold"
+        android:inputType="number" />
+
+</LinearLayout>
