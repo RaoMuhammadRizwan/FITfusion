@@ -4,10 +4,29 @@
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:context="Fragments.WorkoutFragment">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="5dp"
+        android:background="@drawable/textview_background"
+        android:fontFamily="@font/headingfont"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="7dp"
+        android:layout_marginEnd="10dp"
+        android:gravity="center"
+        android:text="Workout"
+        android:textAlignment="center"
+        android:textSize="40sp"
+        android:layout_marginBottom="10dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        />
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
+        android:layout_marginTop="66dp"
         android:padding="16dp">
 
         <androidx.cardview.widget.CardView
@@ -39,6 +58,7 @@
                     android:layout_gravity="center_vertical"
                     android:layout_marginStart="16dp"
                     android:text="Beginner Level"
+                    android:fontFamily="@font/textviewfont"
                     android:textSize="20sp"
                     android:textStyle="bold" />
             </LinearLayout>
@@ -74,6 +94,7 @@
                     android:layout_gravity="center_vertical"
                     android:layout_marginStart="16dp"
                     android:text="Intermediate Level"
+                    android:fontFamily="@font/textviewfont"
                     android:textSize="20sp"
                     android:textStyle="bold" />
             </LinearLayout>
@@ -109,6 +130,7 @@
                     android:layout_gravity="center_vertical"
                     android:layout_marginStart="16dp"
                     android:text="Advanced Level"
+                    android:fontFamily="@font/textviewfont"
                     android:textSize="20sp"
                     android:textStyle="bold" />
             </LinearLayout>
@@ -143,6 +165,7 @@
                     android:layout_gravity="center_vertical"
                     android:layout_marginStart="16dp"
                     android:text="Expert Level"
+                    android:fontFamily="@font/textviewfont"
                     android:textSize="20sp"
                     android:textStyle="bold" />
             </LinearLayout>

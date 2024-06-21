@@ -21,6 +21,12 @@
         android:theme="@style/Theme.FITFUSION"
         tools:targetApi="31">
         <activity
+            android:name="Quotes.DisplayQuoteActivity"
+            android:exported="false" />
+        <activity
+            android:name="Quotes.QuoteActivity"
+            android:exported="false" />
+        <activity
             android:name=".MeditationActivity"
             android:exported="false" />
         <activity

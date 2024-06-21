@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="24dp"
+    tools:context="Quotes.QuoteActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:fontFamily="@font/textviewfont"
+        android:layout_height="wrap_content"
+        android:text="Welcome to FITfusion Quotes"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:paddingBottom="16dp"/>
+
+    <EditText
+        android:id="@+id/nameEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your name"
+        android:padding="16dp"
+        android:fontFamily="@font/textviewfont"
+        android:elevation="5dp"
+        android:background="@drawable/edittextbackground"
+        android:textColor="@android:color/black"
+        android:textColorHint="@android:color/darker_gray" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/startButton"
+        android:layout_width="325dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/whitebtn"
+        android:paddingStart="15dp"
+        android:elevation="7dp"
+        android:fontFamily="@font/btnfont"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:text="Start"
+        android:textColor="@color/black"/>
+</LinearLayout>

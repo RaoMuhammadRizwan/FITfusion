@@ -23,6 +23,7 @@
             android:layout_height="wrap_content"
             android:text="Exercise Name"
             android:textSize="18sp"
+            android:fontFamily="@font/textviewfont"
             android:textStyle="bold" />
 
         <TextView
@@ -30,6 +31,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Exercise Description"
+            android:fontFamily="@font/textviewfont"
             android:textSize="14sp"
             android:layout_marginTop="4dp" />
 
@@ -38,6 +40,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Difficulty: Easy"
+            android:fontFamily="@font/textviewfont"
             android:textSize="12sp"
             android:textColor="@android:color/holo_red_dark"
             android:layout_marginTop="4dp" />
