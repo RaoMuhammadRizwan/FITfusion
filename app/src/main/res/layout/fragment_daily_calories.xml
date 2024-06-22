@@ -8,7 +8,6 @@
     <TextView
         android:id="@+id/tvWelcome"
         android:fontFamily="@font/headingfont"
-        android:background="@drawable/textview_background"
         android:textStyle="bold"
         android:textColor="@color/black"
         android:gravity="center"

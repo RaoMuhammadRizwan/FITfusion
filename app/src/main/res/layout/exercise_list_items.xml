@@ -2,11 +2,15 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:orientation="horizontal"
+    android:layout_marginBottom="10dp"
+    android:background="@drawable/whitebtn"
+    android:elevation="5dp"
     android:padding="16dp">
 
     <ImageView
         android:id="@+id/ivExerciseImage"
         android:layout_width="60dp"
+        android:elevation="5dp"
         android:layout_height="60dp"
         android:layout_marginEnd="16dp"
         android:src="@drawable/exercise_image" />

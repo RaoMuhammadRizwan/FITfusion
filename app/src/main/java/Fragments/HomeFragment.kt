@@ -13,6 +13,7 @@ import com.denzcoskun.imageslider.interfaces.ItemClickListener
 import com.denzcoskun.imageslider.models.SlideModel
 import com.example.fitfusion.AskAIActivity
 import com.example.fitfusion.AvatarCreation
+import com.example.fitfusion.Diet.DietPlansActivity
 import com.example.fitfusion.MeditationActivity
 import com.example.fitfusion.R
 import com.example.fitfusion.databinding.FragmentHomeBinding
@@ -81,6 +82,11 @@ class HomeFragment : Fragment() {
         binding.cvQuote.setOnClickListener{
             Toast.makeText(requireContext(), "Quote Clicked", Toast.LENGTH_SHORT).show()
             val intent = Intent(requireContext(),QuoteActivity::class.java)
+            startActivity(intent)
+        }
+        binding.cvDiet.setOnClickListener {
+            Toast.makeText(requireContext(), "Diet Plan Clicked", Toast.LENGTH_SHORT).show()
+            val intent = Intent(requireContext(), DietPlansActivity::class.java)
             startActivity(intent)
         }
 

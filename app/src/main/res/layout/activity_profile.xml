@@ -9,7 +9,6 @@
 
     <ImageView
         android:elevation="10dp"
-        android:background="@drawable/textview_background"
         android:id="@+id/ivProfileImage"
         android:layout_width="100dp"
         android:layout_height="100dp"

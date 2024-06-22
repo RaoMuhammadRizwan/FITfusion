@@ -1,0 +1,107 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <ImageView
+        android:id="@+id/imageViewDietPlan"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:elevation="7dp"
+        android:layout_gravity="center_horizontal"
+        android:scaleType="centerCrop"
+        android:src="@drawable/default_profile_image" />
+
+    <TextView
+        android:id="@+id/textViewDietPlanName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1dp"
+        android:text="Diet Plan Name"
+        android:fontFamily="@font/textviewfont"
+        android:padding="5dp"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textViewOverview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/textviewfont"
+        android:padding="5dp"
+        android:layout_marginTop="1dp"
+        android:text="Overview: \nEmphasizes fruits, vegetables, whole grains, fish, nuts, olive oil, and limits red meat and processed foods."
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/textViewHealthBenefits"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/textviewfont"
+        android:padding="5dp"
+        android:layout_marginTop="1dp"
+        android:text="Health Benefits: \nAssociated with reduced risk of chronic diseases, improved heart health, and potential for weight loss."
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/textViewOtherBenefits"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1dp"
+        android:fontFamily="@font/textviewfont"
+        android:padding="5dp"
+        android:text="Other Benefits:\nRich in antioxidants and healthy fats, promotes longevity and overall well-being."
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/textViewDownsides"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/textviewfont"
+        android:padding="5dp"
+        android:layout_marginTop="1dp"
+        android:text="Downsides:\nMay require significant meal planning and preparation time."
+        android:textSize="16sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="16dp">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/buttonLearnMore"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="Learn More"
+            android:background="@drawable/whitebtn"
+            android:drawableStart="@drawable/ic_website"
+            android:paddingStart="15dp"
+            android:elevation="5dp"
+            android:textStyle="bold"
+            android:layout_marginRight="10dp"
+            android:textSize="12sp"
+            android:fontFamily="@font/btnfont"
+            android:textColor="@color/black" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/buttonWatchVideo"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:elevation="5dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/whitebtn"
+            android:drawableStart="@drawable/ic_youtube"
+            android:paddingStart="15dp"
+            android:text="Watch Video"
+            android:textStyle="bold"
+            android:textSize="12sp"
+            android:fontFamily="@font/btnfont"
+            android:textColor="@color/black" />
+
+    </LinearLayout>
+
+</LinearLayout>
