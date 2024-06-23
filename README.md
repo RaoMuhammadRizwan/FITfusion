@@ -26,7 +26,7 @@ To install FITfusion, follow these steps:
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/yourusername/fitfusion.git
+    git clone https://github.com/RaoMuhammadRizwan/fitfusion.git
     ```
 2. Navigate to the project directory:
     ```bash
