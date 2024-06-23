@@ -48,20 +48,22 @@ FITfusion is built using a combination of modern tools and technologies to ensur
 - **Java and Kotlin** for Android development.
 - **Android SDK** for building the Android application.
 - **Firebase** for backend services.
-- **Unity** for real-time avatar rendering.
+
 
 ### High-Level Architecture Diagram
-![High-Level Architecture](path/to/architecture-diagram.png)
+![High-Level Architecture](![image](https://github.com/MuzammilArshad/FITfusion/assets/81909337/076aa579-6ab6-430a-9ec2-99aae0e40291)
+)
 
 ## Screenshots and Diagrams
 ### App Interface
-![App Interface](path/to/interface-screenshot.png)
+![App Interface](![image](https://github.com/MuzammilArshad/FITfusion/assets/81909337/de7ec63f-f55a-4ff8-bbe6-df6235b07731)
+)
 
 ### Avatar Customization
-![Avatar Customization](path/to/avatar-customization-screenshot.png)
+![Avatar Customization](![image](https://github.com/MuzammilArshad/FITfusion/assets/81909337/f406748e-5a86-4e96-b0da-056e14589f5e)
+)
 
-### Health Analysis
-![Health Analysis](path/to/health-analysis-screenshot.png)
+
 
 ## Acknowledgements
 We would like to express our deepest gratitude to our supervisor, Ms. Arooj Abid, and co-supervisor, Mr. Waseem Sajid, for their invaluable guidance and support throughout the development of FITfusion. Special thanks to our parents for their unwavering support.
