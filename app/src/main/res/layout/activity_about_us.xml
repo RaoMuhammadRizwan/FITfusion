@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".AboutUsActivity"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/textViewTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="About Us"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:fontFamily="@font/textviewfont"
+        android:textColor="@color/black"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:paddingBottom="16dp"/>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        app:cardCornerRadius="8dp"
+        app:cardElevation="4dp"
+        app:layout_constraintTop_toBottomOf="@id/textViewTitle"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <TextView
+                android:id="@+id/textViewDescription"
+                android:layout_width="match_parent"
+                android:padding="2dp"
+                android:fontFamily="@font/textviewfont"
+                android:textStyle="italic"
+                android:layout_height="wrap_content"
+                android:text="Welcome to FITfusion, a groundbreaking fitness app developed as a final year project by software engineering students from Lahore Garrison University. Guided by Ms. Arooj Abid and Mr. Waseem Sajid, our supervisors, FITfusion combines innovative technology with personalized experiences to transform health goals into visual reality.\n
+
+\nContributors\n
+
+\nRao Muhammad Rizwan
+\nBS Software Engineering
+\nBSSE-FA20-096#-C
+\n
+\nMuzammil Arshad
+\nBS Software Engineering
+\nBSSE-FA20-075#-C
+
+\n\nTogether, we've created FITfusion: where personalized 3D avatars, precise health analyses, and a user-friendly interface converge to empower your fitness journey. Join us as we redefine fitness technology and inspire healthier lifestyles."
+                android:textSize="13sp"
+                android:layout_marginBottom="10dp"
+                android:textColor="@color/black"
+                android:paddingBottom="8dp"/>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/buttonTerms"
+                android:text="Terms and Conditions"
+                android:textSize="18sp"
+                android:layout_width="match_parent"
+                android:fontFamily="@font/btnfont"
+                android:layout_height="wrap_content"
+                android:paddingTop="8dp"
+                android:elevation="7dp"
+                android:textStyle="bold"
+                android:background="@drawable/whitebtn"
+                android:paddingBottom="4dp"/>
+
+            <TextView
+                android:id="@+id/textViewSocialHandles"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Contact Us"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:layout_marginTop="20dp"
+                android:textColor="@color/black"
+                android:paddingTop="16dp"
+                android:paddingBottom="8dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center">
+
+                <ImageView
+                    android:id="@+id/iv_gmail"
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:src="@drawable/ic_gmail"
+                    android:padding="8dp"/>
+
+                <ImageView
+                    android:id="@+id/iv_github"
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:src="@drawable/ic_github"
+                    android:padding="8dp"/>
+
+                <ImageView
+                    android:id="@+id/iv_linkedin"
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:src="@drawable/ic_linkedin"
+                    android:padding="8dp"/>
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</androidx.constraintlayout.widget.ConstraintLayout>

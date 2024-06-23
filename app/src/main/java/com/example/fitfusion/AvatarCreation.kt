@@ -80,7 +80,7 @@ class AvatarCreation : AppCompatActivity() {
             }
         }
 
-        val URL = "https://demo.avaturn.dev/iframe" // Replace with your project's domain
+        val URL = "https://demo.avaturn.dev/iframe" // project's domain
         val uri: Uri = Uri.parse(URL)
         val projectDomain = "${uri.scheme}://${uri.host}"
 

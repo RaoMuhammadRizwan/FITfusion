@@ -11,6 +11,7 @@ import android.widget.Toast
 import com.denzcoskun.imageslider.constants.ScaleTypes
 import com.denzcoskun.imageslider.interfaces.ItemClickListener
 import com.denzcoskun.imageslider.models.SlideModel
+import com.example.fitfusion.AboutUsActivity
 import com.example.fitfusion.AskAIActivity
 import com.example.fitfusion.AvatarCreation
 import com.example.fitfusion.Diet.DietPlansActivity
@@ -87,6 +88,11 @@ class HomeFragment : Fragment() {
         binding.cvDiet.setOnClickListener {
             Toast.makeText(requireContext(), "Diet Plan Clicked", Toast.LENGTH_SHORT).show()
             val intent = Intent(requireContext(), DietPlansActivity::class.java)
+            startActivity(intent)
+        }
+        binding.cvAboutUS.setOnClickListener {
+            Toast.makeText(requireContext(), "About Us Clicked", Toast.LENGTH_SHORT).show()
+            val intent = Intent(requireContext(),AboutUsActivity::class.java)
             startActivity(intent)
         }
 

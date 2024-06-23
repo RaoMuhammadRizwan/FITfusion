@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".EditProfileActivity">
+    tools:context="UserProfile.EditProfileActivity">
 
     <EditText
         android:id="@+id/etName"
@@ -147,7 +147,7 @@
         android:layout_height="60dp"
         android:background="@drawable/edittextbackground"
         android:layout_marginTop="20dp"
-        android:drawableStart="@drawable/bmi_icon"
+        android:drawableStart="@drawable/ic_bmi"
         android:drawablePadding="15dp"
         android:ems="10"
         android:textColor="@color/black"

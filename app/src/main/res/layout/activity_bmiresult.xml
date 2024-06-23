@@ -28,8 +28,8 @@
         android:textAlignment="center"
         android:textColor="@color/black"
         android:layout_below="@id/bmiImage"
-        android:layout_centerHorizontal="true"
         android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
         android:background="@drawable/textview_background"
         android:textSize="20sp"
         android:textStyle="bold" />
@@ -47,7 +47,7 @@
         android:layout_marginHorizontal="20dp"
         android:textAlignment="center"
         android:background="@drawable/textview_background"
-        android:textSize="18sp"
+        android:textSize="20sp"
         android:layout_centerVertical="true"
         android:textColor="@color/black"
         android:textStyle="bold"/>

@@ -20,6 +20,11 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.FITFUSION"
         tools:targetApi="31">
+
+        <activity
+            android:name=".AboutUsActivity"
+            android:exported="false" />
+
         <activity
             android:name="Diet.DietDetailsActivity"
             android:exported="false" />
@@ -59,10 +64,10 @@
             android:name=".AvatarCreation"
             android:exported="false" />
         <activity
-            android:name=".EditProfileActivity"
+            android:name="UserProfile.EditProfileActivity"
             android:exported="false" />
         <activity
-            android:name=".ProfileActivity"
+            android:name="UserProfile.ProfileActivity"
             android:exported="false" />
         <activity
             android:name="Authentication.ForgetPasswordActivity"

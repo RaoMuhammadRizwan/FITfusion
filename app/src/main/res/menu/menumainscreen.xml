@@ -13,5 +13,5 @@
         android:icon="@drawable/workout_icon" />
     <item android:title="Daily Calories "
         android:id="@+id/DailyCaloriesFragment"
-        android:icon="@drawable/meal_icon" />
+        android:icon="@drawable/calories_icon" />
 </menu>
