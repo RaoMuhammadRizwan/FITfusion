@@ -51,16 +51,19 @@ FITfusion is built using a combination of modern tools and technologies to ensur
 
 
 ### High-Level Architecture Diagram
-![High-Level Architecture](![image](https://github.com/MuzammilArshad/FITfusion/assets/81909337/076aa579-6ab6-430a-9ec2-99aae0e40291)
+![High-Level Architecture](![Arcitecture ](https://github.com/MuzammilArshad/FITfusion/assets/81909337/8d125bb3-2edb-45b1-b7b7-315dbc3ec34d)
+)
 )
 
 ## Screenshots and Diagrams
 ### App Interface
-![App Interface](![image](https://github.com/MuzammilArshad/FITfusion/assets/81909337/de7ec63f-f55a-4ff8-bbe6-df6235b07731)
+![App Interface](![app interface ](https://github.com/MuzammilArshad/FITfusion/assets/81909337/ade5aca2-cc48-45b8-9e3b-24639e305863)
+)
 )
 
 ### Avatar Customization
-![Avatar Customization](![image](https://github.com/MuzammilArshad/FITfusion/assets/81909337/f406748e-5a86-4e96-b0da-056e14589f5e)
+![Avatar Customization](![Avatar ](https://github.com/MuzammilArshad/FITfusion/assets/81909337/b3182f39-ad16-4a21-9c14-5662124a22e6)
+)
 )
 
 
