@@ -29,7 +29,7 @@
         android:padding="10dp"
         android:textColor="@android:color/black"
         android:layout_marginTop="24dp"
-        android:layout_width="325dp"
+        android:layout_width="300dp"
         android:layout_height="60dp"
         android:fontFamily="@font/btnfont"
         android:background="@drawable/whitebtn"
