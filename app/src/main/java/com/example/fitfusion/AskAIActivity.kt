@@ -23,7 +23,7 @@ class AskAIActivity : AppCompatActivity() {
             val generativeModel = GenerativeModel(
                 modelName = "gemini-1.5-flash",
 
-                apiKey = "AIzaSyCxKtx9s9LodHrlOyBF5dK3F8jiaNZfi08"
+                apiKey = "AIzaSyC8k-xqczWjpsJt3G3kzoFm6calwuEzAfk"
             )
             runBlocking {
                 val response = generativeModel.generateContent(prompt)
